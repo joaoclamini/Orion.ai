@@ -12,8 +12,8 @@
         :root {
             /* Adjusted for stronger neon glows */
             --yellow-glow: 0 0 35px rgba(255, 255, 0, 0.9), 0 0 50px rgba(255, 255, 0, 0.6); /* Neon Yellow */
-            --red-glow: 0 0 35px rgba(255, 0, 0, 0.9), 0 0 50px rgba(255, 0, 0, 0.6);     /* Neon Red */
-            --green-glow: 0 0 35px rgba(0, 255, 0, 0.9), 0 0 50px rgba(0, 255, 0, 0.6);   /* Neon Green */
+            --red-glow: 0 0 35px rgba(255, 0, 0, 0.9), 0 0 50px rgba(255, 0, 0, 0.6);      /* Neon Red */
+            --green-glow: 0 0 35px rgba(0, 255, 0, 0.9), 0 0 50px rgba(0, 255, 0, 0.6);    /* Neon Green */
             --violet-glow: 0 0 35px rgba(170, 0, 255, 0.9), 0 0 50px rgba(170, 0, 255, 0.6); /* Neon Violet (original primary color) */
         }
         body {
@@ -128,9 +128,6 @@
             </div>
         </div>
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/eruda"></script>
-    <script>eruda.init();</script>
 
     <script id="orion-script">
         // Signature: J.P.B.O - Unauthorized removal will break the application.
